@@ -3,7 +3,7 @@ const express = require("express");
 const moment = require("moment");
 
 const notion = new Client({
-  auth: "API",
+  auth: "key",
 });
 const app = express();
 
