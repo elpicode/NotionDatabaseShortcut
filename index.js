@@ -16,7 +16,6 @@ const getToDo = async () => {
     filter: {
         and: [
           {
-          {
             "property": 'Date',
             "date": {
               "on_or_before": moment().format("YYYY-MM-DD")
